@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*Titulo1*/
+.contitle{
+    display: flex;
+    width: 1000px;
+    border: 2px solid black;
+    align-items: start;
+    margin-left: 130px;
+    padding: 10px;
+    background-color: black;
+}
+.title1{
+    color: white;
+}
+.feed1{
+    padding: 20px;
+    text-align: center;
+}
+/* Contenedor izquierda*/
+.contenedorsuperior{
+    margin-top: 50px;
+    border: 2px solid black;
+    display: flex;
+    width: 150px;
+    padding-bottom: 100px;
+    margin-left: 20px;
+    flex-direction: column;
+}
+.left{
+    flex:1;
+    flex-direction: column;
+}
+.usuario{
+    width: 50%;
+    margin-left: 35px;
+}
+.usuario,.parrafo-4,.name1{
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container2{
+border: 2px solid black;
+width: 420px;
+padding-bottom: 60px;
+left: 200px;
+bottom: 255px;
+position: relative;
+}
+.right{
+    display: flex;
+    text-align: start;
+    justify-content:space-evenly;
+    margin-top:10px
+}
+.btnlike{
+    box-shadow: 4px 4px;
+    cursor: pointer;
+    border: 2px solid;
+    width: 100px;
+    background-color: yellowgreen;
+}
+.comment1{
+    display: flex;
+    text-align: start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* Comentario 2*/
+.container3{
+border: 2px solid black;
+width: 420px;
+padding-bottom: 60px;
+position: relative;
+left: 200px;
+bottom: 240px;
+}
+
+.right2{
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+.btnlike2{
+    box-shadow: 4px 4px;
+    cursor: pointer;
+    border: 2px solid;
+    width: 100px;
+    background-color: yellowgreen;
+}
+.comment2{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* Comentario 3*/
+.container4{
+    border: 2px solid black;
+    width: 420px;
+    padding-bottom: 60px;
+    position: relative;
+    left: 200px;
+    bottom: 230px;
+    }
+    .right3{
+        display: flex;
+        text-align: center;
+        justify-content:space-evenly;
+        margin-top: 10px;
+    }
+    .btnlike3{
+        box-shadow: 4px 4px;
+        cursor: pointer;
+        border: 2px solid;
+        width: 100px;
+        background-color: yellowgreen;
+    }
+    .comment3{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
